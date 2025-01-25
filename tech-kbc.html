@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-KBC Game</title>
+    <link rel="stylesheet" href="tech-kbc.css">
+    <head>
+        <!-- Link to Google Fonts for Roboto and Oswald -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400&display=swap" rel="stylesheet">
+    </head>
+    
+</head>
+<body>
+    <h1>TECH-KBC</h1>
+    <div class="reset-game hide">
+        <button id="reset-btn">Reset game</button>
+    </div>
+   
+    <div class="game-container hide">
+        <div class="description">
+
+
+            <div class="intro">
+        
+                <p> 
+                  <h4>
+                    <strong> Description:</strong>
+                  </h4>  
+                   <P class="intro1">
+                    Welcome to Tech-KBC!
+                    Test your knowledge of technology with a fun and challenging quiz! Answer multiple-choice questions, and see how many you can get right. With each level, the difficulty increases, and you can use lifelines to help you along the way. Ready to challenge yourself? Start the game now!
+                   </P> 
+                </p>
+               </div>
+
+                
+                <div class="rules">
+                    <p>
+                        <h4>
+                            <strong> and rules  :</strong> 
+                        </h4>
+                        <p class="intro1">
+                            1] You will be asked a series of multiple-choice questions on technology.
+                            <br>
+
+                            <br>
+                            2] There is no time limit constraint to answer the question.
+                            <br>
+
+                            <br>
+                            3] Lifelines: You have 2 lifelines to help you out:
+                            <br>
+                            a] 50:50: Remove two incorrect options.
+                            <br>
+                            b] Swap the Question : swap current question with random one.
+                            <br>
+
+                            <br>
+                            4] As you answer correctly, you move up to higher levels with tougher questions.
+                            <br>
+                            
+                            <br>
+                            5] If you choose the wrong answer, the game ends, but you can always try again!
+                        </p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="start-game">
+                <button id="start-btn">
+                    Start Game
+                </button>
+            </div>
+        </div>
+   
+
+        <div class="msg-container">
+            <p class="msg1"></p>
+            <p class="msg2"></p>
+
+                <div class="msg3-container hide">
+                    <p class="msg3">select correct answer</p>
+                </div>
+    
+                <div class="score-board">
+                    <p>score</p>
+                    <p class="score">0</p>
+                </div>            
+        </div>
+
+
+        <div class="lifeline hide">
+            <button class="lifeline-btn hide">lifeline</button>
+            <button class="btn1 hide">50-50</button>
+            <button class="btn2 hide">swap a question</button>
+        </div>
+
+        <div class="home hide">
+            <button class="home-btn">Home</button>
+        </div>
+
+
+        <div class="next">
+            <button class="next-btn hide">Next</button>
+        </div>
+
+
+<script src="tech-kbc.js"></script>
+</body>
+</html>
